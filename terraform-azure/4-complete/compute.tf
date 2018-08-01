@@ -30,7 +30,7 @@ resource "azurerm_virtual_machine" "myterraformvm" {
 
     ssh_keys {
       path     = "/home/azureuser/.ssh/authorized_keys"
-      key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZS+E6KRZ9IG+X0/gKUB+9n5mSHb7INsvDYTBr2okFVICEdxEtiU2QbW617rK+AS7KG/U900V72OLAt4HJZsyJN8poozEvsUsZ+EiwPFH6UBmMR8vDXsr1JPXpiNuyz6mAeiDvSu3s/dXSi5C1qS98K36JukTVdlGi1qA+RB0ZZiUN3ClOHsRzo4nRLK5yUq5JRQgv2jEDuLcVivHJjFjB6mj1Cxfct9Tb50hhzryPkRp2LNV/HB2XtvNmbhxk1B4MpTh1adIusLEiC4njeOImY/wOoUDM+gIFkqAemCj93lBprpD7fHzVrzezXzMgCb0E0l6hymFLHl5SxknCY3jb mcbkingdom@mcballuxio.local"
+      key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMlVfLSw1cgoBXt9pUvsmhevU1TmLZCJfR1UK2LJqD9raSbb2n96+1F0q6xqUTA/D9NPSOtIhPx39DSZvBkEd+3CFI2KxrlgeChHe7GBeDWfV8/B5Wwq8hbtDQmqjf8/NtM0yfu8L/9zR0EOiicPlAJmxBWm5wMXYH1y1KUk7qq5sOnWr/lGjKsxoxcKZZiUTIH9lZ6Jr9R4uHz4TwyGgVUpwmRhwT98Wcn01lRF5vc/J2F3pY7ZOMybY8oo5MLEFeLFRHMcHnl3REbkZ1xchvqiGIB27jXxwJ+7W8g7AfSta1PDDixuiehtkQ+UtdMrm5un4wsrxxjDWXgszA7YDV agjennings@Amandas-MBP-2.fios-router.home"
     }
   }
 
