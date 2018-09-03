@@ -10,13 +10,13 @@ resource "azurerm_virtual_machine" "myterraformvm" {
     name              = "myOsDisk"
     caching           = "ReadWrite"
     create_option     = "FromImage"
-    managed_disk_type = "Standard_LTS"
+    managed_disk_type = "Standard_LRS"
   }
 
   storage_image_reference {
     publisher = "Canonical"
     offer     = "UbuntuServer"
-    sku       = "16.04.0-LTD"
+    sku       = "16.04.0-LTS"
     version   = "latest"
   }
 
