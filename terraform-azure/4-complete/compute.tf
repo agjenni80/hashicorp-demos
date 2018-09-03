@@ -10,7 +10,7 @@ resource "azurerm_virtual_machine" "myterraformvm" {
     name              = "myOsDisk"
     caching           = "ReadWrite"
     create_option     = "FromImage"
-    managed_disk_type = "Standard_LRS"
+    managed_disk_type = "Standard_LTS"
   }
 
   storage_image_reference {
